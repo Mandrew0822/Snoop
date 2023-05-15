@@ -22,3 +22,6 @@ To install Snoop, follow these steps:
 To use Snoop, run the `snoop` command followed by the path to the directory you want to snoop on:
 
     snoop /path/to/file
+    
+    
+[![Screenshot-from-2023-05-14-21-40-14.png](https://i.postimg.cc/XvK8Z6vt/Screenshot-from-2023-05-14-21-40-14.png)](https://postimg.cc/DWZsDDLc)
