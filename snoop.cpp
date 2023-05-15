@@ -57,7 +57,7 @@ std::string getFileType(const std::string& filename) {
         { ".rpm", "Red Hat/Fedora Package File" },
         { ".iso", "CD/DVD Disk Image File" },
         { ".so", "Linux Shared Object Library File" },
-                { ".odt", "OpenDocument text" },
+        { ".odt", "OpenDocument text" },
         { ".rtf", "Rich Text Format" },
         { ".html", "Hypertext Markup Language" },
         { ".xml", "eXtensible Markup Language" },
