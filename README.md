@@ -13,7 +13,7 @@ Snoop is a command-line utility for Linux that provides information about files 
 To install Snoop, follow these steps:
 
      git clone https://github.com/Mandrew0822/Snoop.git
-     cd snoop
+     cd Snoop
      sudo sh install.sh
 
 ## Usage
