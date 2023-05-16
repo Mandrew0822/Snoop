@@ -12,4 +12,9 @@ if(UNIX)
         PROGRAMS ${CMAKE_SOURCE_DIR}/data.json
         DESTINATION /etc/snoop
     )
+    add_custom_target(uninstall
+        COMMAND rm -drf /etc/snoop
+        COMMAND rm /usr/local/bin/snoop
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+    )
 endif()
