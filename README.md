@@ -15,7 +15,6 @@ To install Snoop, follow these steps:
      git clone https://github.com/Mandrew0822/Snoop.git
      cd Snoop
      sudo sh install.sh
-     cd ..
 
 ## Usage
 
