@@ -2,7 +2,7 @@
 
 Snoop is a command-line utility for Linux that provides information about files in a directory.
 
-[![Screenshot-from-2023-05-20-14-52-33.png](https://i.postimg.cc/8k9JWnT1/Screenshot-from-2023-05-20-14-52-33.png)](https://postimg.cc/pyQLMC97)
+[![Screenshot-from-2023-05-20-14-56-17.png](https://i.postimg.cc/8c4pzHBr/Screenshot-from-2023-05-20-14-56-17.png)](https://postimg.cc/p59b0KS2)
 
 ## Features
 
