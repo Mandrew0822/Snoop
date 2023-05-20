@@ -11,8 +11,6 @@
 // Function to get the file type based on the file extension
 std::string getFileType(const std::string& filename) {
     static const std::map<std::string, std::string> extensionMap = {
-    std::string getFileType(const std::string& filename) {
-    static const std::map<std::string, std::string> extensionMap = {
         { ".cpp", "C++ Source Code" },
         { ".cc", "C++ Source Code" },
         { ".cxx", "C++ Source Code" },
@@ -91,6 +89,7 @@ std::string getFileType(const std::string& filename) {
         { ".ttf", "TrueType Font File" },
         { ".otf", "OpenType Font File" },
     };
+    
 
     std::size_t dotIndex = filename.find_last_of(".");
     if (dotIndex != std::string::npos) {
@@ -154,6 +153,9 @@ int main(int argc, char** argv) {
         std::cerr << "Error: " << std::strerror(errno) << "\n";
         return 1;
     }
+
+    std::string filePath = "./" + std::string(filename);
+    bool executable = isExecutable(filePath);
 
     std::time_t lastModified = fileStat.st_mtime;
 
